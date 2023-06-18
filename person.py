@@ -1,6 +1,5 @@
-from time import sleep
 from wallet import Wallet
-import json
+
 
 class Person:
     """
@@ -91,4 +90,3 @@ class Person:
         #     print("{0} ".format(i), end="")
 
         self.add_product_to_possessions(ship_name, 1)
-

@@ -1,6 +1,7 @@
 from person import Person
 from wallet import Wallet
 
+
 class Market:
     '''
     Represents a Market that trades in a specific currency, and can also

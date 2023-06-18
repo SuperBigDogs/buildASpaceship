@@ -58,5 +58,3 @@ class Wallet:
         # similar.
         self.remove_money(amount, currency)
         wallet_receiving_money.add_money(amount, currency)
-
-

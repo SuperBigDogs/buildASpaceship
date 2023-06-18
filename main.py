@@ -6,6 +6,7 @@ from person import Person
 from market import Market
 from marketplace import Marketplace
 
+
 def main():
     """
     Used to execute step-by-step process of finding optimal price for
@@ -33,11 +34,11 @@ def main():
     # - 5 units of shields
 
     components_and_num_required = {"engine": 1,
-                                        "fuselage": 1,
-                                        "ammo": 20,
-                                        "weaponsSystem": 1,
-                                        "navigationSystem": 1,
-                                        "shield": 5}
+                                   "fuselage": 1,
+                                   "ammo": 20,
+                                   "weaponsSystem": 1,
+                                   "navigationSystem": 1,
+                                   "shield": 5}
 
     for component, number_required in components_and_num_required.items():
         print(f" - {number_required} {component}")
@@ -59,7 +60,8 @@ def main():
         print(f" {amount} {currency}")
 
     print()
-    # Market A - accepts currency A - It then offers goods and services denominated in Currency A.
+    # Market A - accepts currency A - It then offers goods and services
+    # denominated in Currency A.
     # shields - 20 CURA
     # ammo - 4 CURA
     # 1 CURB - 50 CURA
@@ -161,12 +163,15 @@ def main():
     # Buckle your seatbelts. This is where it happens.
     # You don't just buy a spaceship at your friendly
     # neighborhood NASA dealership. You build your own.
-    luke.build_spaceship(components_and_num_required, "super_awesome_ship_3000")
+    luke.build_spaceship(
+        components_and_num_required,
+        "super_awesome_ship_3000")
 
     print("And now, I present to you my prized possession!\n")
 
     for possession, number in luke.possessions_and_number:
         print(f"{number} {possession}")
+
 
 if __name__ == "__main__":
     main()
