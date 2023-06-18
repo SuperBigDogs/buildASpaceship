@@ -52,7 +52,6 @@ exceptiongroup==1.1.1
 fake-useragent==0.1.11
 filelock==3.6.0
 flake8==6.0.0
-fmpStock @ file:///Users/lukepotter/Investing/fmpStock/dist/fmpStock-0.0.1.tar.gz
 frozenlist==1.3.0
 geographiclib==1.52
 geopy==2.2.0
